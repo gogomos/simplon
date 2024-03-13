@@ -1,0 +1,6 @@
+to run you lib 
+step 1 = > gcc -c -o .\calculatrice.o .\calculatrice.c
+step 2 => ar rcs .\calculatrice.a .\calculatrice.o 
+step 3 =>  gcc -o calc .\calculatrice.c -L. -lcalculatrice 
+step 4 => gcc -o main .\main.c .\calculatrice.a
+step 5 => .\main  
